@@ -13,9 +13,13 @@
 >      mvn compile
 > then open a command-line, cd to the "target" folder of the project
 > Start the server:
->    $ java -cp example-1.0-shaded.jar RpcServerTest
+
+    $ java -cp example-1.0-shaded.jar RpcServerTest
+
 > In a separate command-line, start the client:
->    $ java -cp example-1.0-shaded.jar RpcClientTest
+
+    $ java -cp example-1.0-shaded.jar RpcClientTest
+
 > At this point, you will see a pile of log messages in both windows.  Congratulations!
 > Some things to note about this example:
 > * If you run the client before the server, you will see timeout messages.
