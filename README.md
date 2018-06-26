@@ -10,7 +10,7 @@
 > * TIMEOUT_MS: how long to wait for reply before timing out
 >
 > Build the project using maven:
->      mvn compile
+>      mvn package
 > then open a command-line, cd to the "target" folder of the project
 > Start the server:
 
